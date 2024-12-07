@@ -7,7 +7,7 @@
 body {
     font-family: "Mulish", sans-serif;
 }
-#nav1 {
+#navbar1 {
     background-color: hsl(139.2 75% 18.8%);
     padding: 10px;
     text-align: right;
@@ -19,7 +19,7 @@ body {
     margin-right: 60px;
 }
 
-#nav1 a {
+#navbar1 a {
     color: white;
     text-decoration: none;
     padding-right: 3px;
@@ -31,7 +31,7 @@ body {
     height: 20px;
 }
 
-#nav1 span {
+#navbar1 span {
     font-weight: bold;
     color: white;
     pointer-events: none;
@@ -39,7 +39,7 @@ body {
 }
 
 /* nav 2 */
-.nav {
+.navbar2 {
     background-color: white;
     color: hsl(139.2 75% 18.8%);
     padding-left: 70px;
@@ -866,16 +866,9 @@ footer a {
         display: grid;
         grid-template-columns: 1fr;
     }
-
-    .cn {
-        width: 763px;
-        height: 450px;
-    }
-
-    .cs {
-        width: 756px;
-        height: 450px;
-    }
+.cn{
+    padding: 0%;
+}
     .container3{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -902,22 +895,8 @@ footer a {
     .card1 {
         margin-right: 0px;
     }
-    .cn {
-        width: 600px;
-        height: 100%;
-    }
-
-    .cs {
-        width:600px;
-        height: 100%;
-    }
 }
 @media only screen and (max-width: 400px){
-
-    .cn {
-        width: 397px;
-        height: 100%;
-    }
     .wrapper{
         left:5%;
      }
