@@ -14,10 +14,13 @@ const swiper = new Swiper('.slider-wrapper', {
       0:{
         slidesPerView: 1
       },
-      768:{
-        slidesPerView: 2
+      769:{
+        slidesPerView: 3
       },
       1024:{
+        slidesPerView: 4
+      },
+      1280:{
         slidesPerView: 5
       }
     }
